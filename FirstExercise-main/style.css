@@ -1,10 +1,12 @@
 body {
+    
     font-family: Arial, sans-serif;
 }
 
 #content {
     text-align: center;
     margin-top: 50px;
+    
 }
 
 #actionButton {
@@ -12,4 +14,22 @@ body {
     padding: 10px 20px;
     font-size: 16px;
     cursor: pointer;
+    visibility: visible;
+}
+
+.navigation {
+    background-color: aquamarine;
+    overflow: hidden;
+}
+
+.navigation a {
+    float: left;
+    color: #abce2e ;
+    text-align: center;
+    padding: 14px 16px;
+    font-size: 18px;
+}
+
+.navigation a:hover{
+    background-color: black;
 }
